@@ -1,5 +1,5 @@
 <?php 
-class MoteurDiesel implements MoteurThermique, Moteur{
+class MoteurDiesel implements MoteurThermique{
     public function augmenterTours() {
         echo "Augmenter les tours de ce moteur de diesel";
     }

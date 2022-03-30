@@ -1,5 +1,5 @@
 <?php 
-class MoteurEssence implements MoteurThermique, Moteur {
+class MoteurEssence implements MoteurThermique {
     public function augmenterTours() {
         return "Augmenter les tours de ce moteur d'essence";
     }
