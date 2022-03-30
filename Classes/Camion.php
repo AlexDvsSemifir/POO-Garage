@@ -14,7 +14,7 @@ class Camion extends Vehicule {
 
     public function __toString()
     {
-        return "Je suis un camion, je suis de marque " . $this->getMarque() . "et mon moteur est de type " . $this->moteur->getType();
+        return "Je suis un camion, je suis de marque " . $this->getMarque();
     }
 }
 ?>
