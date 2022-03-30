@@ -4,10 +4,18 @@ class Camion extends Vehicule {
         parent::__construct($marque, $moteur);
     }
 
+    /**
+     * Attache une remorque
+     * @return string
+     */
     public function attacherRemorque() {
         return "Le camion attache une remorque";
     }
 
+    /**
+     * Détache une remorque
+     * @return string
+     */
     public function detacherRemorque() {
         return "Le camion detache une remorque";
     }

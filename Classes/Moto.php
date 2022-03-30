@@ -4,6 +4,9 @@ class Moto extends Vehicule {
         parent::__construct($marque, $moteur);
     }
 
+    /**
+     * Permet de faire de une roue comme un gros kéké sa mère
+     */
     public function faireUnWheeling() {
         return "La moto fait un wheeling";
     }

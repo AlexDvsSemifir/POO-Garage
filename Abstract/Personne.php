@@ -16,6 +16,10 @@ abstract class Personne {
         return $this->nom;
     }
 
+    /**
+     * Affichel es informations sur la personne
+     * @return string
+     */
     public function sePresenter() {
         return "Je m'appelle " . $this->nom . " et j'ai " . $this->age . " ans";
     }

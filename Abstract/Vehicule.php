@@ -12,16 +12,25 @@ abstract class Vehicule {
         return $this->marque;
     }
 
+    /**
+     * Fait avancer le véhicule
+     */
     public function avancer() {
         $this->moteur->augmenterTours();
         return "Le véhicule avance";
     }
 
+    /**
+     * Fait reculer le véhicule
+     */
     public function reculer() {
         $this->moteur->augmenterTours();
         return "Le véhicule recule";
     }
 
+    /**
+     * Fait frêner le véhicule
+     */
     public function freiner() {
         return "Le véhicule freine";
     }
